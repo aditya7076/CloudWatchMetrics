@@ -14,7 +14,7 @@ On the VirtualMachines to get metrics of:
 Can be found <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Agent-on-first-instance.html"> here</a>
 
 
-For ClouWatch Monitoring Scripts for Amazon EC2 Linux-based instances, follow the instructions below. The Perl scripts comprise a fully functional example that reports memroy, swap, and disk space utilization metrics for a linux instance.
+The ClouWatch Monitoring Scripts for Amazon EC2 Linux-based instances, follow the instructions below that are provided by AWS. The Perl scripts comprise a fully functional example that reports memroy, swap, and disk space utilization metrics for a linux instance.
 All the instructions (Step 1 through 8) can also be found <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/mon-scripts.html"> here </a>
 
 
