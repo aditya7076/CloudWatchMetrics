@@ -159,4 +159,4 @@ Usage:
   
        python awsmetric2csv.py ec2 --days 30
 
-Output: output.csv 
+Output: output.csv
