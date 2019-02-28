@@ -68,7 +68,7 @@ At CPAN prompt, run each of the below commands: run once command and it installs
  	
 
 3. To Download, Install and Configure monitoring scripts
-   At the folder where you want to store the monitoring scritps run
+   At the folder where you want to store the monitoring scripts run
 	  
        curl https://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-1.2.2.zip -O
 
