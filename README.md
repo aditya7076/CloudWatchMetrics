@@ -7,7 +7,7 @@ CPU utilization can be obtained by default from CloudWatch console, but to retri
 
 Installation:
 
-On the VirtualMachines to get metrics of:
+On the target VirtualMachines:
 
 1. Install CloudWatch Agent 
 
@@ -122,10 +122,10 @@ At CPAN prompt, run each of the below commands: run once command and it installs
   ![alt text](https://github.com/ccrshishir1/CloudWatchMetrics/blob/master/Custom%20Namespace.PNG)
  
  
-This script runs only against the target instances that are on the same region as the machine where script is running is on. 
+This script runs only against the target instances that are on the same region as the machine where script is running is on. Configure your AWS CLI to be on the same region as of the target Virtual Machine.
 
 
-From your terminal:
+On your terminal:
 
 9. Clone Project from Github.
    
