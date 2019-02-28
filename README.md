@@ -105,7 +105,7 @@ At CPAN prompt, run each of the below commands: run once command and it installs
 	 
 A Custom Namespace of "Linux System" will be created on CloudWatch console providing graphical representation of MemoryUtilization.
   
-   ![Alt text](CloudWatchMetrics/Custom Namespace.PNG?raw=true "Custom Namespace") 
+   ![Screenshot] (Custom Namespace.PNG)
    
 8. Start a cron schedule for metrics reported to CloudWatch
       
