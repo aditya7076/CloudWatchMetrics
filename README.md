@@ -82,8 +82,11 @@ At CPAN prompt, run each of the below commands: run once command and it installs
    If an IAM role has been associated, verify it grants to perform following operations:
   
       cloudwatch:PutMetricData
+      
       cloudwatch:GetMetricStatistics
+      
       cloudwatch:ListMetrics
+      
       ec2:DescribeTags
    
 6. Specify AWS credentials in a credentials file. Copy awscreds.template file included with monitoring scripts to awscreds.conf as follows.
