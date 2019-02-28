@@ -15,7 +15,7 @@ Can be found <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monito
 
 
 For ClouWatch Monitoring Scripts for Amazon EC2 Linux-based instances, follow the instructions below. The Perl scripts comprise a fully functional example that reports memroy, swap, and disk space utilization metrics for a linux instance.
-All the instructions (Step 1 through 8) can also be found at <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/mon-scripts.html"> here </a>
+All the instructions (Step 1 through 8) can also be found <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/mon-scripts.html"> here </a>
 
 
 2. Install prerequisite: 
@@ -55,6 +55,7 @@ At CPAN prompt, run each of the below commands: run once command and it installs
 
 	
   Red Hat Enterprise Linux 7.4
+  
       sudo yum install perl-Switch perl-DateTime perl-Sys-Syslog perl-LWP-Protocol-https perl-Digest-SHA --enablerepo="rhui-REGION-rhel-server-optional" -y 
       sudo yum install zip unzip
 	 
