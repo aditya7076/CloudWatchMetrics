@@ -102,10 +102,10 @@ At CPAN prompt, run each of the below commands: run once command and it installs
 
        ./mon-put-instance-data.pl --mem-util --verify --verbose 
        
-	 
-A Custom Namespace of "Linux System" will be created on CloudWatch console providing graphical representation of MemoryUtilization.
-  
-  ![alt text](https://github.com/ccrshishir1/CloudWatchMetrics/blob/master/Custom%20Namespace.PNG)
+   
+   Perfom a test run to collect available metrics and send them to CloudWatch, counting cache and buffer memory as used.
+   
+       ./mon-put-instance-data.pl --mem-used-incl-cache-buff --mem-util --mem-used --mem-avail
    
 8. Start a cron schedule for metrics reported to CloudWatch
       
@@ -113,6 +113,11 @@ A Custom Namespace of "Linux System" will be created on CloudWatch console provi
        
        */5 * * * * /home/ec2-user/aws-scripts-mon/mon-put-instance-data.pl --mem-used-incl-cache-buff --mem-util --mem-used --mem-avail
 
+
+ A Custom Namespace of "Linux System" will be created on CloudWatch console providing graphical representation of MemoryUtilization.
+  
+  ![alt text](https://github.com/ccrshishir1/CloudWatchMetrics/blob/master/Custom%20Namespace.PNG)
+ 
  
 This script runs only against the target instances that are on the same region as the machine where script is running is on. 
 
