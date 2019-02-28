@@ -168,4 +168,6 @@ Usage:
   
        python awsmetric2csv.py ec2 --days 30
 
+Instances that do not have CloudWatch Agent installed will show "0" as the value for Memory Utilization Metrics.
+
 Output: output.csv
