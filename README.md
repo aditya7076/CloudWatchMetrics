@@ -2,8 +2,8 @@
 
 Description:
 
-This script, awsmetric2csv.py, helps to collect CPUUtilization and MemoryUtilization metrics.
-CPU utilization can be obtained by default from CloudWatch console, but to retrieve MemoryUtilization, CloudWatch Agent must be installed on each instance from where the metrics are to be collected.
+This utility helps to collect CPUUtilization and MemoryUtilization metrics.
+CPU utilization can be obtained by default from CloudWatch console, but to retrieve MemoryUtilization, CloudWatch Agent must be installed on each target Virtual Machine.
 
 Installation:
 
@@ -14,12 +14,13 @@ On the target VirtualMachines:
 Can be found <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Agent-on-first-instance.html"> here</a>
 
 
-The ClouWatch Monitoring Scripts for Amazon EC2 Linux-based instances, follow the instructions below that are provided by AWS. The Perl scripts comprise a fully functional example that reports memroy, swap, and disk space utilization metrics for a Linux instance.
+The ClouWatch Monitoring Scripts for Amazon EC2 Linux-based instances, demonstrate how to produce and consume Amazon CloudWatch custom metrics. Follow the instructions below that are provided by AWS. 
 All the instructions (Step 1 through 8) can also be found <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/mon-scripts.html"> here </a>
 
 
 2. Install prerequisite: 
-   For some versions of Linux, you must install additional modules before the monitoring scripts will work.
+   For some versions of Linux, you must install additional modules before the monitoring scripts will work. The Perl scripts comprise a fully functional example that reports memroy, swap, and disk space utilization metrics for a Linux instance.
+   
    Log onto to the instance and install the following packages: 
   
 
