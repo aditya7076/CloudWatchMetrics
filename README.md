@@ -93,7 +93,7 @@ At CPAN prompt, run each of the below commands: run once command and it installs
      
        cp awscreds.template awscreds.conf
   
-   Add contents to the awscreds.conf file
+   Add credentials to the awscreds.conf file
 	 
        AWSAccessKeyId = my-access-key-id
        AWSSecretKey = my-secret-access-key
@@ -122,19 +122,22 @@ From your terminal:
    https://github.com/ccrshishir1/CloudWatchMetrics.git
 
   Install requirements before running scripts.
-  Pip (If not already installed)
-  Boto3 (If not already installed)
-  Numpy (If not already installed)
+  
+  Pip (If not installed already)
+  
+  Boto3 (If not installed already)
+  
+  Numpy (If not installed already)
  
  or use 
   
       pip install -r requirements.txt
       
-  Install AWS CLI (If not already installed)
+  Install AWS CLI (If not installed already)
      
      pip install awscli
   
-  Configure AWS CLI (If not already configured)
+  Configure AWS CLI (If not configured already)
      
      aws configure
 
