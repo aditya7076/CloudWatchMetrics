@@ -116,11 +116,16 @@ A Custom Namespace of "Linux System" will be created on CloudWatch console provi
  
 This script runs only against the target instances that are on the same region as the machine where script is running is on. 
 
+
 From your terminal:
 
-9. Clone scripts from github.
+9. Clone Project from github.
    
    https://github.com/ccrshishir1/CloudWatchMetrics.git
+   
+   Go to the project folder:
+   
+       cd awsmetric2csv
 
   Install requirements before running scripts.
   
